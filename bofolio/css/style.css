@@ -170,6 +170,7 @@ body{
 .menu li a:hover:before{
     box-shadow: 0px 0 0 rgba(0, 0, 0, 0.7), 8px 0px 0 rgba(0, 0, 0, 0.6), 16px 0 0 rgba(0, 0, 0, 0.5), 32px 0 0 rgba(0, 0, 0, 0.4), 64px 0 0 rgba(0, 0, 0, 0.3), 128px 0 0 rgba(0, 0, 0, 0.2);
 }
+.menu li.active a:before{background-color: #00beff;}
 .ink {
   display: block;
   position: absolute;
@@ -240,6 +241,20 @@ body{
 }
 .bf-item .link:hover{
 	text-decoration: underline;
+}
+.skll-item{
+    margin: 15px;
+    display: inline-block;
+}
+.skll-item .pic{
+    overflow: hidden;
+    height: 180px;
+    width: 180px;
+    border-radius:0 50% 50% 50%;
+}
+.skll-item .pic img{}
+.skll-item .title{
+    margin-bottom: 7px;
 }
 .footer{
     width: 220px;
