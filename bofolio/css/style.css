@@ -255,6 +255,19 @@ body{
 .skll-item .pic img{}
 .skll-item .title{
     margin-bottom: 7px;
+    position: relative;
+}
+.skill-progress{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.skill-progress svg .good{
+  stroke: #e34f26;
+  fill:#fff;
+  stroke-dashoffset: 200;
+  stroke-width: 5;
+  stroke-dasharray: 108;
 }
 .footer{
     width: 220px;
