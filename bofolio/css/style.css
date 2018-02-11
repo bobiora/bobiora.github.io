@@ -140,12 +140,11 @@ body{
 .menu{}
 .menu li{
 	text-transform: uppercase;
-	margin-bottom: 10px;
 	border-bottom: 1px solid #eee;
 }
 .menu li a{
 	display: block;
-	padding: 5px 10px;
+	padding: 10px;
 	text-decoration: none;
 	color: #777;
 	font-size: 16px;
@@ -171,6 +170,7 @@ body{
     box-shadow: 0px 0 0 rgba(0, 0, 0, 0.7), 8px 0px 0 rgba(0, 0, 0, 0.6), 16px 0 0 rgba(0, 0, 0, 0.5), 32px 0 0 rgba(0, 0, 0, 0.4), 64px 0 0 rgba(0, 0, 0, 0.3), 128px 0 0 rgba(0, 0, 0, 0.2);
 }
 .menu li.active a:before{background-color: #00beff;}
+.menu li.active a i{color: #00beff;}
 .ink {
   display: block;
   position: absolute;
@@ -204,9 +204,8 @@ body{
 }
 
 .page{
-	margin-left: 270px;
-	padding: 15px;
-	height: 100vh;
+	margin-left: 235px;
+	padding: 15px 0 15px 15px;
 }
 .bfolio{
 	text-align: center;
@@ -216,11 +215,11 @@ body{
     padding: 10px;
     box-shadow: 0 1px 1px rgba(0,0,0,.1);
     margin: 0 15px 30px;
-    width: 270px;
+    max-width: 270px;
     height: 338px;
 }
 .bf-item .pic{
-	width: 250px;
+	max-width: 250px;
 	height: 250px;
 	overflow: hidden;
 	margin-bottom: 15px;
@@ -242,6 +241,20 @@ body{
 .bf-item .link:hover{
 	text-decoration: underline;
 }
+.heading{
+  font-size: 36px;
+  line-height: 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.section{
+  background: url(../images/border.png) repeat-x 0 bottom;
+  margin-bottom: 80px;
+  padding-bottom: 30px;
+  padding-left: 35px;
+  
+}
 .skll-item{
     margin: 15px;
     display: inline-block;
@@ -262,12 +275,126 @@ body{
   right: 0;
   top: 0;
 }
-.skill-progress svg .good{
-  stroke: #e34f26;
-  fill:#fff;
-  stroke-dashoffset: 200;
+.skill-progress svg circle{
+  transition: stroke-dashoffset 1s;
+  -webkit-animation-play-state: running;
+}
+.skill-progress svg .done{
+  stroke: #04a500;
+  fill: #fff;
+  stroke-dashoffset: 170;
   stroke-width: 5;
-  stroke-dasharray: 108;
+  stroke-dasharray: 230;
+  -webkit-animation: done 2s;
+  animation: done 2s;
+}
+.skill-progress svg .good{
+  stroke: #05c300;
+  fill: #fff;
+  stroke-dashoffset: 170;
+  stroke-width: 5;
+  stroke-dasharray: 220;
+  -webkit-animation: good 2s;
+  animation: good 2s;
+}
+.skill-progress svg .well{
+  stroke: #7ac300;
+  fill: #fff;
+  stroke-dashoffset: 170;
+  stroke-width: 5;
+  stroke-dasharray: 215;
+  -webkit-animation: well 2s;
+  animation: well 2s;
+}
+.skill-progress svg .norm{
+  stroke: #c3bb00;
+  fill: #fff;
+  stroke-dashoffset: 170;
+  stroke-width: 5;
+  stroke-dasharray: 205;
+  -webkit-animation: norm 2s;
+  animation: norm 2s;
+}
+@-webkit-keyframes done {
+  from {
+    stroke-dashoffset: 230;
+  }  
+  to {
+    stroke-dashoffset: 170;
+  }
+}
+@keyframes done {
+  from {
+    stroke-dashoffset: 230;
+  }  
+  to {
+    stroke-dashoffset: 170;
+  }
+}
+@-webkit-keyframes good {
+  from {
+    stroke-dashoffset: 220;
+  }  
+  to {
+    stroke-dashoffset: 170;
+  }
+}
+@keyframes good {
+  from {
+    stroke-dashoffset: 220;
+  }  
+  to {
+    stroke-dashoffset: 170;
+  }
+}
+@-webkit-keyframes well {
+  from {
+    stroke-dashoffset: 215;
+  }  
+  to {
+    stroke-dashoffset: 170;
+  }
+}
+@keyframes well {
+  from {
+    stroke-dashoffset: 215;
+  }  
+  to {
+    stroke-dashoffset: 170;
+  }
+}
+@-webkit-keyframes norm {
+  from {
+    stroke-dashoffset: 205;
+  }  
+  to {
+    stroke-dashoffset: 170;
+  }
+}
+@keyframes norm {
+  from {
+    stroke-dashoffset: 205;
+  }  
+  to {
+    stroke-dashoffset: 170;
+  }
+}
+.btn{
+  display: inline-block;
+  color: #fff;
+  background-color: #00beff;
+  padding: 15px 25px;
+  border-radius: 3px;
+  text-decoration: none;
+  -webkit-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+.btn:hover{
+  color: #00beff;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 10px rgba(0,0,0,.2)
 }
 .footer{
     width: 220px;
@@ -281,4 +408,50 @@ body{
 .footer .text{
     text-align: center;
     color: #ccc;
+}
+@media (max-width: 700px){
+  .header{
+    width: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .author{
+    padding-top: 10px;
+    margin-bottom: 0;
+  }
+  .author .img:before, .author .img:after{display: none;}
+  .author .img{
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .a-name{
+    display: block;
+    font-size: 16px;
+    text-align:center;
+  }
+  .menu li a{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    padding: 0;
+  }
+  .menu li a span{display: none;}
+  .menu li a i{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 30px;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+  }
+  .menu li a:before{display: none;}
+  .footer{padding-left: 90px;width: 100%;position: static;}
+  .page{
+    margin-left: 75px;
+  }
+  .section{padding-left: 15px;}
+  .bf-item{height: auto;}
+  .bf-item .pic{height: auto;}
 }

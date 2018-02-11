@@ -20,4 +20,26 @@ $().ready(function(){
             ink.css({top: y+'px', left: x+'px'}).addClass("animate");
         });
     });
+    function scrollNav() {
+      $('.section-link').click(function(e){  
+        e.preventDefault();
+        /*$('.menu li').removeClass('active');
+        $(this).parent().addClass('active');*/
+        //Animate
+        $('html, body').stop().animate({
+            scrollTop: $( $(this).attr('href') ).offset().top - 85
+        }, 400);
+      });     
+    }
+    scrollNav();
 });
+
+$(window).scroll(function() {
+    var scrollDistance = $(window).scrollTop() + 85;
+    $('.section').each(function(i) {
+            if ($(this).position().top <= scrollDistance) {
+                    $('.menu li.active').removeClass('active');
+                    $('.menu li').eq(i).addClass('active');
+            }
+    });
+}).scroll();
