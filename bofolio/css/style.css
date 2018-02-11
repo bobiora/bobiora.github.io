@@ -152,6 +152,7 @@ body{
     overflow: hidden;
     z-index: 0;
 }
+.menu li a i{display: none;}
 .menu li a:hover,
 .menu li.active a{
     color: #363636;
@@ -437,6 +438,7 @@ body{
   }
   .menu li a span{display: none;}
   .menu li a i{
+    display: block;
     position: absolute;
     left: 50%;
     top: 50%;
