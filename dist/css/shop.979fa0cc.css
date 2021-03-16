@@ -1,0 +1,1 @@
+.cats-item__img{display:block;max-width:100%;margin-left:auto;margin-right:auto}.cats-item__name{margin-top:20px;margin-bottom:15px;font-weight:700}.cats-item__pice{font-size:22px;margin-bottom:15px}.cats-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));grid-gap:3rem 2rem}.main-shop{margin-top:180px;position:relative;padding-bottom:30px}
