@@ -5,63 +5,80 @@
       "name": "White Deer",
       "price": "40.99",
       "img": "https://ctl.s6img.com/society6/img/Q5C5O_ww10xBiacCaZLHC_jIqb4/w_700/framed-prints/10x12/conservation-natural/~artwork/s6-original-art-uploads/society6/uploads/misc/3b2f227ba0924fbbb3277e827d5b9dd6/~~/white-deer469377-framed-prints.jpg",
-      "available": 1
+      "available": 1,
+      "category": "framed"
     },
     {
       "id": "1",
       "name": "Field and Sky",
       "price": "32.79",
       "img": "https://ctl.s6img.com/society6/img/6u2Yx6z-2qzRn_InoCkRuMRC9Lo/w_700/framed-prints/10x12/conservation-natural/~artwork/s6-original-art-uploads/society6/uploads/misc/7a52ac6689e044b5ba5059164fd79e4d/~~/field-and-sky456643-framed-prints.jpg",
-      "available": 1
+      "available": 1,
+      "category": "framed"
     },
     {
       "id": "2",
       "name": "Space Clouds",
       "price": "33.19",
       "img": "https://ctl.s6img.com/society6/img/rCt4q7SsWlzh4EadaC00qqpMnu8/w_700/framed-prints/10x12/conservation-natural/~artwork/s6-original-art-uploads/society6/uploads/misc/620269cc96d84b96be0aa1cb40f223c7/~~/space-clouds-smoke-framed-prints.jpg",
-      "available": 1
+      "available": 1,
+      "category": "framed"
     },
     {
       "id": "3",
       "name": "Liquid Lines",
       "price": "50",
       "img": "https://ctl.s6img.com/society6/img/IlrCLdLG6XW2qUiWYLl15txUyjg/w_700/framed-prints/10x12/conservation-natural/~artwork/s6-original-art-uploads/society6/uploads/misc/3e1c493207c14ebfb7e5bacfc9bd0e21/~~/liquid-lines-lel-framed-prints.jpg",
-      "available": 1
+      "available": 1,
+      "category": "framed"
     },
     {
       "id": "4",
       "name": "Wave Abstraction",
       "price": "50",
       "img": "https://ctl.s6img.com/society6/img/KDaxy2QYUuMuwXJyo461gwH5ij0/w_700/framed-prints/10x12/conservation-natural/~artwork/s6-original-art-uploads/society6/uploads/misc/1dabb71b35124f1ab1cceea28c728ed7/~~/wave-abstraction1922118-framed-prints.jpg",
-      "available": 1
+      "available": 1,
+      "category": "framed"
     },
     {
       "id": "5",
       "name": "Chestnut",
       "price": "35.19",
       "img": "https://ctl.s6img.com/society6/img/8Tc1hobvUoQmaOfCm0gHigvG_No/w_700/framed-prints/10x12/conservation-natural/~artwork/s6-original-art-uploads/society6/uploads/misc/6c41c22f9daf4c52bc513351180ebeb7/~~/chestnut1700333-framed-prints.jpg",
-      "available": 1
+      "available": 1,
+      "category": "framed"
     },
     {
       "id": "6",
       "name": "Sky",
       "price": "32.79",
       "img": "https://ctl.s6img.com/society6/img/mT4aZe_jrFvfTQ-UgoAelyriO4I/w_700/framed-prints/10x12/conservation-natural/~artwork/s6-original-art-uploads/society6/uploads/misc/7bdb9012df884ce7a76ad1a66a98deb4/~~/sky789346-framed-prints.jpg",
-      "available": 1
+      "available": 1,
+      "category": "framed"
     },
     {
       "id": "7",
       "name": "Abstraction flower",
       "price": "42.79",
       "img": "https://ctl.s6img.com/society6/img/bRt5thqzm-7Ex_H60SqDXQnIuc4/w_700/framed-prints/10x12/conservation-natural/~artwork/s6-original-art-uploads/society6/uploads/misc/febaec2576964ceb985149d7bd8c2ba6/~~/abstraction-flower-framed-prints.jpg",
-      "available": 1
+      "available": 1,
+      "category": "framed"
     },
     {
       "id": "8",
       "name": "Umbrella Corp.",
       "price": "69",
       "img": "https://ctl.s6img.com/society6/img/HSYbO-5zcxw-qqZ6WuxIoS5GhmQ/w_700/mini-art-prints/4x4/stand/front/~artwork,fw_1238,fh_1238,iw_1238,ih_1238/s6-original-art-uploads/society6/uploads/misc/672ff90256474c34a72b0810f2296529/~~/umbrella-corp2986761-mini-art-prints.jpg",
-      "available": 1
+      "available": 1,
+      "category": "mini"
+    },
+    {
+      "id": "9",
+      "name": "Rainbow S6",
+      "price": "67",
+      "img": "https://ctl.s6img.com/society6/img/pNsyfmCAFGrFObbWSXHzJ5lBOVQ/w_700/mini-art-prints/4x4/stand/front/~artwork,fw_1238,fh_1238,iw_1238,ih_1238/s6-original-art-uploads/society6/uploads/misc/f06a4e3792ba4841b735e5ef13d78478/~~/rainbow-s6-mini-art-prints.jpg?wait=0&attempt=0",
+      "available": 1,
+      "category": "mini"
     }
   ]  
 }
