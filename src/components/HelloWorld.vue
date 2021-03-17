@@ -4,9 +4,7 @@
     :style="{
       'background-image': 'url(' + require('@/assets/bg-hero.jpg') + ')'
     }"
-  >
-    
-  </div>
+  ></div>
 </template>
 
 <script>

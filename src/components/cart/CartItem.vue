@@ -6,13 +6,15 @@
       <div>{{ cart_item_data.price }}</div>
       <div>{{ cart_item_data.id }}</div>
     </div>
-    <div class="cart-item__qty"><span @click="decrItem">-</span>Qty: {{ cart_item_data.qty }}<span @click="incrItem">+</span></div>
+    <div class="cart-item__qty">
+      <span @click="decrItem">-</span>Qty: {{ cart_item_data.qty
+      }}<span @click="incrItem">+</span>
+    </div>
     <button @click="removeItem">remove</button>
   </div>
 </template>
 
 <script>
-
 export default {
   name: "CartItem",
   props: {
@@ -29,16 +31,16 @@ export default {
   computed: {},
   methods: {
     decrItem() {
-      this.$emit("decritem")
+      this.$emit("decritem");
     },
     incrItem() {
-      this.$emit("incritem")
+      this.$emit("incritem");
     },
-    removeItem(){
-        this.$emit("removeItem")
+    removeItem() {
+      this.$emit("removeItem");
     }
   },
-  mounted(){}
+  mounted() {}
 };
 </script>
 <style lang="sass">

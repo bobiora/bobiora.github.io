@@ -1,19 +1,17 @@
 <template>
   <div class="cart">
-    <router-link :to="{name: 'Shop'}">Back to Shop</router-link>
+    <router-link :to="{ name: 'Shop' }">Back to Shop</router-link>
     <div class="cart__heading">Cart</div>
     <p v-if="!cart_data.length">Cart is empty</p>
     <CartItem
-        v-for="(item, index) in cart_data"
-        :key="item.id"
-        :cart_item_data="item"
-        @removeItem="removeItem(index)"
-        @decritem="decritem(index)"
-        @incritem="incritem(index)"
+      v-for="(item, index) in cart_data"
+      :key="item.id"
+      :cart_item_data="item"
+      @removeItem="removeItem(index)"
+      @decritem="decritem(index)"
+      @incritem="incritem(index)"
     />
-    <div class="cart__total">
-      total: {{cartTotal}}
-    </div>
+    <div class="cart__total">total: {{ cartTotal }}</div>
   </div>
 </template>
 
@@ -38,35 +36,31 @@ export default {
     return {};
   },
   computed: {
-    cartTotal(){
+    cartTotal() {
       let res = [];
-      if(this.cart_data.length){
-        for(let item of this.cart_data){
-          res.push(item.price.replace(/ /g,'') * item.qty);
+      if (this.cart_data.length) {
+        for (let item of this.cart_data) {
+          res.push(item.price.replace(/ /g, "") * item.qty);
         }
-        res = res.reduce(function(sum, elm){
+        res = res.reduce(function(sum, elm) {
           return sum + elm;
         });
-      return res.toFixed(2);
-      }else{
-        return 0
+        return res.toFixed(2);
+      } else {
+        return 0;
       }
     }
   },
   methods: {
-    ...mapActions([
-      "REMOVE_FROM_CART",
-      "DICRITEM",
-      "INCRITEM"
-    ]),
+    ...mapActions(["REMOVE_FROM_CART", "DICRITEM", "INCRITEM"]),
     decritem(index) {
       this.DICRITEM(index);
     },
-    incritem(index){
+    incritem(index) {
       this.INCRITEM(index);
     },
-    removeItem(index){
-      this.REMOVE_FROM_CART(index)
+    removeItem(index) {
+      this.REMOVE_FROM_CART(index);
     }
   },
   watch: {}

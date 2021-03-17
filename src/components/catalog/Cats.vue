@@ -1,6 +1,10 @@
 <template>
   <div class="cats">
-    <router-link :to="{name: 'Cart', params: {cart_data: CART}}" class="cart-btn">Cart: {{CART.length}}</router-link>
+    <router-link
+      :to="{ name: 'Cart', params: { cart_data: CART } }"
+      class="cart-btn"
+      >Cart: {{ CART.length }}</router-link
+    >
     <!-- <h3>{{ title }}</h3> -->
     <div class="cats-list">
       <CatsItem
@@ -26,10 +30,7 @@ export default {
     return { title: "Cats" };
   },
   computed: {
-    ...mapGetters([
-      "PRODUCTS",
-      "CART"
-    ])
+    ...mapGetters(["PRODUCTS", "CART"])
   },
   methods: {
     ...mapActions(["GET_PRODUCTS_FROM_API", "ADD_TO_CART"]),

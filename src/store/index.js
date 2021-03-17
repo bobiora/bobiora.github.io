@@ -6,7 +6,7 @@ import commonActions from "@/store/actions/actions.js";
 import apiRequests from "@/store/actions/api-requests.js";
 import getters from "@/store/getters/getters.js";
 
-const actions = {...commonActions, ...apiRequests};
+const actions = { ...commonActions, ...apiRequests };
 
 Vue.use(Vuex);
 
@@ -17,7 +17,7 @@ let store = new Vuex.Store({
   },
   mutations,
   actions,
-  getters,
+  getters
 });
 
 export default store;
