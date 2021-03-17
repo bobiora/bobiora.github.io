@@ -1,11 +1,11 @@
 import axios from "axios";
-
-export default {
+const BASE_URL = "https://bobiora.github.io";
+export default {  
   GET_PRODUCTS_FROM_API({ commit }) {
-    return axios.get("https://bobiora.github.io/db.json")
-      .then(products => {
-        commit("SET_PRODUCTS", products.data.products);
-        return products;
+    return axios.get(`${BASE_URL}/db.json`)
+      .then(response => {
+        commit("SET_PRODUCTS", response.data.products);
+        return response;
       })
       .catch(error => {
         console.log(error);
