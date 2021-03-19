@@ -1,6 +1,6 @@
 <template>
   <div class="cart">
-    <router-link :to="{ name: 'Shop' }">Back to Shop</router-link>
+    <router-link :to="{ name: 'shop' }">Back to Shop</router-link>
     <div class="cart__heading">Cart</div>
     <p v-if="!cart_data.length">Cart is empty</p>
     <CartItem
