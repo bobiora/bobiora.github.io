@@ -28,5 +28,13 @@ export default {
     if (state.cart[index].qty > 1) {
       state.cart[index].qty--;
     }
+  },
+  SWITCH_MOBILE: (state) => {
+    state.isMobile = true;
+    state.isDesktop = false;
+  },
+  SWITCH_DESKTOP: (state) => {
+    state.isMobile = false;
+    state.isDesktop = true;
   }
 };

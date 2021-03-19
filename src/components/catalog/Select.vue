@@ -6,7 +6,7 @@
         >{{selected}}</p>
         <div
             class="select__options"
-            v-if="areOpVisible"
+            v-if="isExpanded || areOpVisible"
         >
             <p
                 class="select__option"
@@ -33,6 +33,10 @@ export default {
         selected: {
             type: String,
             default: ""
+        },
+        isExpanded:{
+            type: Boolean,
+            default: false
         }
     },
     data() {
@@ -61,7 +65,6 @@ export default {
 <style lang="sass">
     .select
         position: relative
-        width: 280px
         margin: 0 auto 30px
         &__title
             font-weight: bold
@@ -71,7 +74,7 @@ export default {
         &__options
             background-color: #fff
             border: 1px solid rgba(0,0,0,.2)
-            position: absolute
+            /*position: absolute*/
             left: 0
             top: 100%
             margin-top: -1px
