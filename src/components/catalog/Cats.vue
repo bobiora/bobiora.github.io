@@ -149,7 +149,7 @@ export default {
   display: grid
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr))
   grid-gap: 3rem 2rem
-
+  position: relative
 .range-slider
   width: 200px
   margin: auto 15px

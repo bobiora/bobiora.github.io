@@ -11,7 +11,7 @@
       @decritem="decritem(index)"
       @incritem="incritem(index)"
     />
-    <div class="cart__total">total: {{ cartTotal }}</div>
+    <div class="cart__total">total: ${{ cartTotal }}</div>
   </div>
 </template>
 

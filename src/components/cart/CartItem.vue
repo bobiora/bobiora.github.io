@@ -3,7 +3,7 @@
     <img class="cart-item__img" :src="cart_item_data.img" alt="" />
     <div class="cart-item__description">
       <div>{{ cart_item_data.name }}</div>
-      <div>{{ cart_item_data.price }}</div>
+      <div>${{ cart_item_data.price }}</div>
       <div>{{ cart_item_data.id }}</div>
     </div>
     <div class="cart-item__qty">
