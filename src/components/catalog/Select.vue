@@ -66,25 +66,23 @@ export default {
     .select
         position: relative
         margin: 0 auto 30px
+        text-align: left
+        border: 1px solid rgba(0,0,0,.2)
         &__title
             font-weight: bold
-            padding: 3px
-            border: 1px solid rgba(0,0,0,.2)
+            padding: 3px 15px
             cursor: pointer
+            border-bottom: 1px solid rgba(0,0,0,.2)
         &__options
             background-color: #fff
-            border: 1px solid rgba(0,0,0,.2)
             /*position: absolute*/
             left: 0
             top: 100%
-            margin-top: -1px
             width: 100%
         &__option
             cursor: pointer
-            padding: 5px
+            padding: 5px 15px
             &:hover
                 background-color: #ebebeb
-            &:not(:last-child)
-                border-bottom: 1px solid rgba(0,0,0,.2)
 
 </style>

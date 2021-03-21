@@ -79,4 +79,7 @@ export default {
   &__pice
     font-size: 22px
     margin-bottom: 15px
+  &__btn
+    margin-left: 10px
+    margin-right: 10px
 </style>
