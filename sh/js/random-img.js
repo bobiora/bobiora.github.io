@@ -4,9 +4,9 @@ var itemImageResults;
 var listLogo = [];
 var listSnacks = [];
 var listResults = [];
-var dirLogos = "/images/logos/";
-var dirResults = "/images/results/";
-var dirSnacks = "/images/snacks/";
+var dirLogos = "/sh/images/logos/";
+var dirResults = "/sh/images/results/";
+var dirSnacks = "/sh/images/snacks/";
 var fileExtension = ".svg"
 var curDomain = "//" + document.domain
 
