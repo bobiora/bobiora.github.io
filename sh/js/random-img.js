@@ -44,9 +44,6 @@ if(getCookie('cookieListLogo', 'cookieListSnacks', 'cookieListResults') !== null
   listLogo = JSON.parse(getCookie('cookieListLogo'));
   listSnacks = JSON.parse(getCookie('cookieListSnacks'));
   listResults = JSON.parse(getCookie('cookieListResults'));  
-  console.log(listLogo)
-  console.log(listSnacks)
-  console.log(ListResults)
   
 }else{
   for (let i = 1; i <= 16; i++){
