@@ -1,0 +1,46 @@
+{
+    "infouser": [
+        {
+            "id": "0",
+            "name": "First name",
+            "dataid": "first-name",
+            "placeholder": "Enter your name"
+        },
+        {
+            "id": "1",
+            "name": "Your address",
+            "dataid": "first-address",
+            "placeholder": "Enter your address"
+        },
+        {
+            "id": "2",
+            "name": "Your e-mail",
+            "dataid": "first-email",
+            "placeholder": "Enter your e-mail"
+        },
+        {
+            "id": "3",
+            "name": "Your Phone",
+            "dataid": "first-phone",
+            "placeholder": "Enter your phone number"
+        }
+    ],
+    "infoproducts": [
+        {
+            "id": "0",
+            "name": "sofa"
+        },
+        {
+            "id": "1",
+            "name": "cupboard"
+        },
+        {
+            "id": "2",
+            "name": "table"
+        },
+        {
+            "id": "3",
+            "name": "chair"
+        }
+    ]
+}
