@@ -4,25 +4,36 @@
             "id": "0",
             "name": "First name",
             "dataid": "first-name",
-            "placeholder": "Enter your name"
+            "placeholder": "Enter your name",
+            "type": "text"
         },
         {
             "id": "1",
             "name": "Your address",
             "dataid": "first-address",
-            "placeholder": "Enter your address"
+            "placeholder": "Enter your address",
+            "type": "text"
         },
         {
             "id": "2",
             "name": "Your e-mail",
             "dataid": "first-email",
-            "placeholder": "Enter your e-mail"
+            "placeholder": "Enter your e-mail",
+            "type": "email"
         },
         {
             "id": "3",
             "name": "Your Phone",
             "dataid": "first-phone",
-            "placeholder": "Enter your phone number"
+            "placeholder": "Enter your phone number",
+            "type": "number"
+        },
+        {
+            "id": "4",
+            "name": "Date",
+            "dataid": "date",
+            "placeholder": "mm/dd/yyyy",
+            "type": "date"
         }
     ],
     "infoproducts": [
