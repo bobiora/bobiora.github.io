@@ -10,26 +10,33 @@
         {
             "id": "1",
             "name": "Your address",
-            "dataid": "first-address",
+            "dataid": "your-address",
             "placeholder": "Enter your address",
             "type": "text"
         },
         {
             "id": "2",
+            "name": "Floor",
+            "dataid": "floor",
+            "placeholder": "Enter your floor",
+            "type": "text"
+        },
+        {
+            "id": "3",
             "name": "Your e-mail",
-            "dataid": "first-email",
+            "dataid": "your-email",
             "placeholder": "Enter your e-mail",
             "type": "email"
         },
         {
-            "id": "3",
+            "id": "4",
             "name": "Your Phone",
             "dataid": "first-phone",
             "placeholder": "Enter your phone number",
             "type": "number"
         },
         {
-            "id": "4",
+            "id": "5",
             "name": "Date",
             "dataid": "date",
             "placeholder": "mm/dd/yyyy",
