@@ -47,14 +47,24 @@
         {
             "name": "מהיכן עוברים ?",
             "dataid": "gofrom",
-            "type": "text",
             "datatogo": "מתי עוברים ?",
+            "type": "text",
+            "placeholder": "כתובת",
+            "floor": "קומה",
+            "typenumber": "number",
+            "lift": "מעלית",
+            "crane": "מנוף",
             "typetime": "time"
         },
         {
             "name": "לאן עוברים ?",
             "dataid": "goto",
+            "datatogo": "מתי עוברים ?",
             "type": "text",
+            "placeholder": "כתובת",
+            "floor": "קומה",
+            "lift": "מעלית",
+            "crane": "מנוף",
             "typetime": "time"
         }
     ],
