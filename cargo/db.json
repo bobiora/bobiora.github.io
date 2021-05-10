@@ -57,12 +57,13 @@
             "typetime": "time"
         },
         {
-            "name": "לאן עוברים ?",
-            "dataid": "goto",
+            "name": "מהיכן עוברים ?",
+            "dataid": "gofrom",
             "datatogo": "מתי עוברים ?",
             "type": "text",
             "placeholder": "כתובת",
             "floor": "קומה",
+            "typenumber": "number",
             "lift": "מעלית",
             "crane": "מנוף",
             "typetime": "time"
