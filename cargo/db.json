@@ -43,6 +43,21 @@
             "type": "date"
         }
     ],
+    "fromto": [
+        {
+            "name": "מהיכן עוברים ?",
+            "dataid": "gofrom",
+            "type": "text",
+            "datatogo": "מתי עוברים ?",
+            "typetime": "time"
+        },
+        {
+            "name": "לאן עוברים ?",
+            "dataid": "goto",
+            "type": "text",
+            "typetime": "time"
+        }
+    ],
     "infoproducts": [
         {
             "id": "0",
