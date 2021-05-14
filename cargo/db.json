@@ -53,19 +53,23 @@
     "infoproducts": [
         {
             "id": "0",
-            "name": "sofa"
+            "name": "מקפיא 6 מגירות",
+            "disassemble": null
         },
         {
             "id": "1",
-            "name": "cupboard"
+            "name": "מקרר 2 דלתות",
+            "disassemble": null
         },
         {
             "id": "2",
-            "name": "table"
+            "name": "מקרר כפול",
+            "disassemble": true
         },
         {
             "id": "3",
-            "name": "chair"
+            "name": "מקרר מיני בר",
+            "disassemble": null
         }
     ]
 }
