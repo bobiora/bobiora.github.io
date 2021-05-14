@@ -59,7 +59,7 @@
         {
             "name": "מהיכן עוברים ?",
             "dataid": "gofrom",
-            "datatogo": "מתי עוברים ?",
+            "datatogo": null,
             "type": "text",
             "placeholder": "כתובת",
             "floor": "קומה",
