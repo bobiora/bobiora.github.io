@@ -40,7 +40,7 @@
         },
         {
             "name": "לאן עוברים ?",
-            "dataid": "gofrom",
+            "dataid": "goto",
             "datatogo": null,
             "type": "text",
             "placeholder": "כתובת",
