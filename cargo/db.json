@@ -35,7 +35,8 @@
             "crane": "מנוף",
             "typetime": "time",
             "workmin": "09:00",
-            "workmax": "18:00"
+            "workmax": "18:00",
+            "icon": "archive"
         },
         {
             "name": "מהיכן עוברים ?",
@@ -47,7 +48,8 @@
             "typenumber": "number",
             "lift": "מעלית",
             "crane": "מנוף",
-            "typetime": "time"
+            "typetime": "time",
+            "icons": "unarchive"
         }
     ],
     "infoproducts": [
