@@ -39,7 +39,7 @@
             "icon": "archive"
         },
         {
-            "name": "מהיכן עוברים ?",
+            "name": "לאן עוברים ?",
             "dataid": "gofrom",
             "datatogo": null,
             "type": "text",
