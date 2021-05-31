@@ -66,8 +66,8 @@
         {
             "id": "2",
             "name": "מקרר כפול",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "3",
@@ -78,68 +78,68 @@
         {
             "id": "",
             "name": "מקרר עד 300 ליטר",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "מקרר עד 500 ליטר",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "כיריים",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "מדיח אינטגרלי",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "מדיח גדול",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "מדיח על השיש",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "קולט אדים",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "תנור בילד אין",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "תנור רגיל",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "מייבש כביסה",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "מכונת כביסה",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
@@ -192,26 +192,26 @@
         {
             "id": "",
             "name": "טלויזיה עד 42 אינצ'",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "טלויזיה 60 אינצ'",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "טלויזיה מעל 80 אינצ'",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "מקרן מסך",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
@@ -276,104 +276,104 @@
         {
             "id": "",
             "name": "אי מטבח",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "ארון 2 דלתות",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "ארון 3 דלתות",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "ארון 4 דלתות",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "ארון 5 דלתות",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "ארון 6 דלתות",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "ארון אמבטיה",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "ארון הזזה 2 דלתות",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "ארון הזזה 3 דלתות",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "ארון הזזה 4 דלתות",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "ארון ויטרינה",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "ארון כתר",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "ארון כתר נמוך",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "ארון מטבח בילדאין",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "יחידת ארון מטבח",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "בסיס מיטה רגיל",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "בסיס שלבים",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
@@ -390,62 +390,62 @@
         {
             "id": "",
             "name": "מיטה זוגית ומזרן",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "מיטה זוגית ומזרן וארגז",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "מיטה זוגית מתכווננת",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "מיטה יהודית",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "מיטת יחיד",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "מיטת יחיד נפתחת",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "מיטת מעבר",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "מיטת נוער ספפה",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "מיטת קומותיים",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "מיטת תינוק",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
@@ -468,8 +468,8 @@
         {
             "id": "",
             "name": "ספה דו ושזלונג",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
@@ -480,8 +480,8 @@
         {
             "id": "",
             "name": "ספה נפתחת",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
@@ -492,26 +492,26 @@
         {
             "id": "",
             "name": "ספת ריקליינר",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "ספת ריש גדולה",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "שזלונג",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "ארון ויטרינה",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
@@ -522,8 +522,8 @@
         {
             "id": "",
             "name": "מזנון תלוי",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
@@ -540,8 +540,8 @@
         {
             "id": "",
             "name": "ספריית קודש",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
@@ -558,14 +558,14 @@
         {
             "id": "",
             "name": "שידת החתלה",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "שידת טלויזיה",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
@@ -576,62 +576,62 @@
         {
             "id": "",
             "name": "פינת אוכל+2 כסאות",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "פינת אוכל+4 כסאות",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "פינת אוכל+6 כסאות",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "פינת אוכל+כסאות כבדה במיוחד",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "פינת אוכל 8 כסאות",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "שולחן מחשב",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "שולחן מחשב עם שלוחה",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "שולחן מטבח",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "שולחן משרדי",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "שולחן נוי",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
@@ -696,44 +696,44 @@
         {
             "id": "",
             "name": "ארונית מדפים",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "כוורת 3 2",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "כוורת 3 3",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "כוורת 4 1",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "כוורת 4 2",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "כוורת 4 4",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "כוורת 5 5",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
@@ -828,14 +828,14 @@
         {
             "id": "",
             "name": "שולחן גינה עד 20 ק\"ג",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "שולחן גינה עד 10 ק\"ג",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
@@ -876,8 +876,8 @@
         {
             "id": "",
             "name": "מחסן",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
@@ -912,20 +912,20 @@
         {
             "id": "",
             "name": "טרמפולינה גדולה",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "טרמפולינה קטנה",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "אופני כושר-אליפטיקל",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
@@ -978,20 +978,20 @@
         {
             "id": "",
             "name": "שולחן סנוקר",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "שולחן פינג פונג",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "שולחן משחק",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
@@ -1020,14 +1020,14 @@
         {
             "id": "",
             "name": "פסנתר",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
             "name": "פסנתר כנף",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
@@ -1062,8 +1062,8 @@
         {
             "id": "",
             "name": "מיטת טיפולים",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         },
         {
             "id": "",
@@ -1140,8 +1140,8 @@
         {
             "id": "",
             "name": "מכונת תפירה שולחני",
-            "disassemble": true,
-            "assemble": true
+            "disassemble": false,
+            "assemble": false
         }
     ]
 }
