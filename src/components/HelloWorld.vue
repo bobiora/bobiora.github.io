@@ -2,7 +2,7 @@
   <div
     class="hero"
     :style="{
-      'background-image': 'url(' + require('@/assets/bg-hero-skills.png') + ')'
+      'background-image': 'url(' + require('@/assets/bg-hero-skills.jpg') + ')'
     }"
   ></div>
 </template>
