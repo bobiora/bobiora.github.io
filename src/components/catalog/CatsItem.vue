@@ -2,7 +2,7 @@
   <div class="cats-item">
     <img @click="showInfo" class="cats-item__img" :src="product_data.img" alt="" />
     <h3 class="cats-item__name">{{ product_data.name }}</h3>
-    <div class="cats-item__pice">${{ product_data.price }}</div>
+    <div class="cats-item__pice">{{ product_data.price | formatedPrice  | toFix }}</div>
     <button
       class="cats-item__btn btn"
       @click="showInfo"
@@ -20,7 +20,7 @@
       <img class="cats-item__img" :src="product_data.img" alt="" />
       <div>
         <h3 class="cats-item__name">{{ product_data.name }}</h3>
-        <div class="cats-item__pice">${{ product_data.price }}</div>
+        <div class="cats-item__pice">{{ product_data.price | formatedPrice | toFix }}</div>
         <div class="cats-item__category">{{ product_data.category }}</div>
       </div>
     </ModalView>
@@ -29,6 +29,8 @@
 
 <script>
 import ModalView from "@/components/modalview/ModalView.vue";
+import formatedPrice from "@/filters/formatedPrice.js";
+import toFix from "@/filters/toFix.js";
 
 export default {
   name: "CatsItem",
@@ -47,6 +49,10 @@ export default {
     return {
       isInfoVisible: false
     };
+  },
+  filters:{
+    formatedPrice,
+    toFix
   },
   computed: {},
   methods: {

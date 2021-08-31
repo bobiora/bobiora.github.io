@@ -3,7 +3,7 @@
     <img class="cart-item__img" :src="cart_item_data.img" alt="" />
     <div class="cart-item__description">
       <div>{{ cart_item_data.name }}</div>
-      <div>${{ cart_item_data.price }}</div>
+      <div>{{ cart_item_data.price | formatedPrice | toFix}}</div>
       <div>{{ cart_item_data.id }}</div>
     </div>
     <div class="cart-item__qty">
@@ -15,6 +15,9 @@
 </template>
 
 <script>
+import formatedPrice from "@/filters/formatedPrice.js";
+import toFix from "@/filters/toFix.js";
+
 export default {
   name: "CartItem",
   props: {
@@ -27,6 +30,10 @@ export default {
   },
   data() {
     return {};
+  },
+  filters:{
+    formatedPrice,
+    toFix
   },
   computed: {},
   methods: {

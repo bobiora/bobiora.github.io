@@ -11,12 +11,14 @@
       @decritem="decritem(index)"
       @incritem="incritem(index)"
     />
-    <div class="cart__total">total: ${{ cartTotal }}</div>
+    <div class="cart__total">total: {{ cartTotal | formatedPrice | toFix }}</div>
   </div>
 </template>
 
 <script>
 import CartItem from "@/components/cart/CartItem.vue";
+import formatedPrice from "@/filters/formatedPrice.js";
+import toFix from "@/filters/toFix.js";
 import { mapActions } from "vuex";
 
 export default {
@@ -35,6 +37,10 @@ export default {
   data() {
     return {};
   },
+  filters:{
+    formatedPrice,
+    toFix
+  },
   computed: {
     cartTotal() {
       let res = [];
@@ -45,7 +51,7 @@ export default {
         res = res.reduce(function(sum, elm) {
           return sum + elm;
         });
-        return res.toFixed(2);
+        return res/*.toFixed(2)*/;
       } else {
         return 0;
       }
