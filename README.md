@@ -1,2 +1,0 @@
-# bobiora.github.io
-bofolio
